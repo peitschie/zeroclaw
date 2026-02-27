@@ -166,7 +166,7 @@ Field names differ by channel:
 - `allowed_contacts` (iMessage)
 - `allowed_pubkeys` (Nostr)
 
-### Group-Chat Trigger Policy (Telegram/Discord/Slack/Mattermost/Lark/Feishu)
+### Group-Chat Trigger Policy (Telegram/Discord/Slack/Mattermost/Matrix/Lark/Feishu)
 
 These channels support an explicit `group_reply` policy:
 

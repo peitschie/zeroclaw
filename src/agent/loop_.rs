@@ -134,6 +134,7 @@ const AUTO_CRON_DELIVERY_CHANNELS: &[&str] = &[
     "mattermost",
     "lark",
     "feishu",
+    "matrix",
 ];
 
 const NON_CLI_APPROVAL_WAIT_TIMEOUT_SECS: u64 = 300;

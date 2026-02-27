@@ -328,6 +328,13 @@ fn validate_heartbeat_channel_config(config: &Config, channel: &str) -> Result<(
                 );
             }
         }
+        "matrix" => {
+            if config.channels_config.matrix.is_none() {
+                anyhow::bail!(
+                    "heartbeat.target is set to matrix but channels_config.matrix is not configured"
+                );
+            }
+        }
         other => anyhow::bail!("unsupported heartbeat.target channel: {other}"),
     }
 
